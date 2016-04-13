@@ -23,7 +23,7 @@ wordpress_sites:
       - 104.236.233.90
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:blinkpi/vagrant.git 
-    repo_subtree_path: ../site # relative path to your Bedrock/WP directory in your repo	
+    repo_subtree_path: # relative path to your Bedrock/WP directory in your repo	
     branch: master
     # subtree_path: site # relative path to your Bedrock/WP directory in your repo (above) if it is not the root (like the roots-example-project structure)
     multisite:
